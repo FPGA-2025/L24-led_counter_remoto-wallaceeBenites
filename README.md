@@ -20,7 +20,7 @@ O comportamento esperado do módulo é simples: ele deve implementar um **contad
 Como ponto de partida, utilize o esqueleto de código abaixo:  
 
 ```verilog
-module LedCounter #(
+module Counter #(
     parameter CLK_FREQ = 25_000_000
 ) (
     input  wire clk,
